@@ -1,0 +1,30 @@
+Dovr
+12345678
+
+Tue Nov 20 13:39:49 ALMT 2018 admin logged in to a system
+Tue Nov 20 13:40:10 ALMT 2018 admin added new student "null Robert Grigoryan r_grigoryan null"
+
+Tue Nov 20 13:40:15 ALMT 2018 admin logged in to a system
+Tue Nov 20 13:40:33 ALMT 2018 admin added new teacher "null Bobur b.muchsimbayev null 0 0"
+
+Tue Nov 20 13:40:34 ALMT 2018 admin logged in to a system
+
+Tue Nov 20 14:09:04 ALMT 2018 admin logged in to a system
+Tue Nov 20 14:09:16 ALMT 2018 admin added new student "null Dauren Karassayev d_karasaev null"
+
+Tue Nov 20 14:09:19 ALMT 2018 admin logged in to a system
+
+Tue Nov 20 15:08:00 ALMT 2018 admin logged in to a system
+Tue Nov 20 15:08:46 ALMT 2018 admin added new student "null  Adilhan Omarov FIT a_omarov  null"
+
+Tue Nov 20 15:08:52 ALMT 2018 admin logged in to a system
+Tue Nov 20 15:09:01 ALMT 2018 admin added new teacher "null  Beisenbek Baisakov null 0 0"
+
+Tue Nov 20 15:09:06 ALMT 2018 admin logged in to a system
+
+Tue Nov 27 10:55:06 ALMT 2018 admin logged in to a system
+Tue Nov 27 10:56:10 ALMT 2018 admin added new instructor "D D FIT kasdasd  FIT kasdasd@kbtu.kz"
+Tue Nov 27 10:56:45 ALMT 2018 admin added new teacher "null DSADd D.das@kbtu.kz null 0 0"
+Tue Nov 27 10:56:45 ALMT 2018 admin added new course "null  0 null"
+
+Tue Nov 27 10:56:51 ALMT 2018 admin logged in to a system
