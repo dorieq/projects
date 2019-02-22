@@ -1,20 +1,20 @@
-import java.util.List;
+import java.util.ArrayList;
 
 class ShoppingCart {
     private int type;
-    private List<Item> items = null;
-    public ShoppingCart(List<Item> items)
+    private ArrayList<Item> items = new ArrayList<>();
+    public ShoppingCart(ArrayList<Item> items)
     {
         type = 0;
         this.items = items;
     }
-    public List<Item> getItems() {
+    public ArrayList<Item> getItems() {
         return items;
     }
     public int getType() {
         return type;
     }
-    public void setItems(List<Item> items) {
+    public void setItems(ArrayList<Item> items) {
         this.items = items;
     }
     public void setType(int type) {

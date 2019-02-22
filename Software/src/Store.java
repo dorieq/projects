@@ -1,11 +1,11 @@
-import java.util.List;
+import java.util.ArrayList;
 
 class Store {
     String name;
-    List<Item> items = null;
-    List<Customer> customers = null;
+    ArrayList<Item> items = new ArrayList<>();
+    ArrayList<Customer> customers = new ArrayList<>();
     int storeid;
-    public Store(int storeid){
+    public Store(int storeid, String s){
         if (storeid == 1)
         {
             name = "ShoeStore";
@@ -16,10 +16,12 @@ class Store {
             name = "BookStore";
             items.add(new Item("Onegin", 200, storeid));
         }
-        else{
+        else if (storeid == 3){
             name = "GameStore";
             items.add(new Item("Halo", 200, storeid));
         }
+        else name = "Mall";
+        this.customers.add(new Customer(s, storeid));
         this.storeid = storeid;
     }
     void enter(Customer C)
@@ -30,7 +32,11 @@ class Store {
         customers.remove(c);
     }
 
-    public List<Item> getItems() {
+    public ArrayList<Customer> getCustomers() {
+        return customers;
+    }
+
+    public ArrayList<Item> getItems() {
         return items;
     }
 

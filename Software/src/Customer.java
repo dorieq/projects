@@ -5,7 +5,7 @@ public class Customer {
     public Customer(String name, int storeid)
     {
         this.name = name;
-        this.store = new Store(storeid);
+        this.store = new Store(storeid, name);
         this.lvl = new ShoppingCart(store.getItems());
     }
 

@@ -1,13 +1,17 @@
-import java.util.List;
+import java.util.ArrayList;
 
 public class Mall {
     String name;
-    List<Store> stores;
-    List<Customer> customers = null;
+    ArrayList<Store> stores = new ArrayList<>();
+    ArrayList<Customer> customers = new ArrayList<Customer>();
+    public Mall(){
+
+    }
     public Mall(String name, String customer)
     {
         this.name = name;
-        customers.add(new Customer(customer, 0));
+        Customer c = new Customer(customer, 0);
+        customers.add(c);
     }
     void enter(String name)
     {
@@ -39,15 +43,15 @@ public class Mall {
     {
         if (s == "Shoe")
         {
-            stores.add(new Store(1));
+            stores.add(new Store(1, customers.get(0).getName()));
         }
         else if (s == "Book")
         {
-            stores.add(new Store(2));
+            stores.add(new Store(2, customers.get(0).getName()));
         }
         else if (s == "Game")
         {
-            stores.add(new Store(3));
+            stores.add(new Store(3, customers.get(0).getName()));
         }
     }
 
